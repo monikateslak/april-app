@@ -1,13 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { ReactDOM } from 'react'
+import { Router } from 'react-router-dom'
+import logo from './logo.svg'
+import './App.css'
+import Navbar from './Navbar'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Navbar></Navbar>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          logo <code></code>
         </p>
         <a
           className="App-link"
@@ -15,11 +20,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Pool Dance Camp
         </a>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
