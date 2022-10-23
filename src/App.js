@@ -1,15 +1,17 @@
 import React from 'react'
-import { ReactDOM } from 'react'
-import { Router } from 'react-router-dom'
+//import { ReactDOM } from 'react'
+//import { Router } from 'react-router-dom'
 import logo from './logo.svg'
 import './App.css'
 import Navbar from './Navbar'
+import ImagesContainer from './ImagesContainer'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <Navbar></Navbar>
+        <ImagesContainer></ImagesContainer>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           logo <code></code>
