@@ -1,10 +1,13 @@
 import React from 'react'
+
 import './Navbar.css'
+
+//const Home = () => <Home></Home>
 
 function Navbar() {
   return (
     <>
-      <div id='nav-css'>
+      <div id='nav-css'> NAWIGACJA
         <ul>
           <li>logo</li>
           <li>home</li>
